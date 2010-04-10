@@ -1,3 +1,6 @@
+http://sujee.net/tech/articles/hbase-map-reduce-freq-counter/
+
+
 To compile the project:
 
 1) open in Eclisle
