@@ -18,7 +18,7 @@ import org.apache.hadoop.mapreduce.Job;
 /**
  * counts the number of userIDs
  * 
- * @author sujee@sujee.net
+ * @author sujee ==at== sujee.net
  * 
  */
 public class FreqCounter1 {
@@ -62,7 +62,7 @@ public class FreqCounter1 {
     
     public static void main(String[] args) throws Exception {
         HBaseConfiguration conf = new HBaseConfiguration();
-        Job job = new Job(conf, "Hbase_MapReduce1");
+        Job job = new Job(conf, "Hbase_FreqCounter1");
         job.setJarByClass(FreqCounter1.class);
         Scan scan = new Scan();
         String columns = "details"; // comma seperated
@@ -73,5 +73,4 @@ public class FreqCounter1 {
         TableMapReduceUtil.initTableReducerJob("summary_user", Reducer1.class, job);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
-
 }

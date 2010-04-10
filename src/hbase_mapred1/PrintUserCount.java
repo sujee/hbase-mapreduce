@@ -10,9 +10,6 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 public class PrintUserCount {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) throws Exception {
 
         HBaseConfiguration conf = new HBaseConfiguration();
@@ -33,5 +30,4 @@ public class PrintUserCount {
         scanner.close();
         htable.close();
     }
-
 }

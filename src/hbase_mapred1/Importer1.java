@@ -16,10 +16,10 @@ import org.apache.hadoop.hbase.util.Bytes;
  *      }
  *   }
  * 
- * @author sujee@sujee.net
+ * @author sujee ==at== sujee.net
  *
  */
-public class Importer {
+public class Importer1 {
 
     public static void main(String[] args) throws Exception {
         
