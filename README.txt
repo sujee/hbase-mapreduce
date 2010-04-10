@@ -1,3 +1,4 @@
+for detailed tutorial : 
 http://sujee.net/tech/articles/hbase-map-reduce-freq-counter/
 
 
